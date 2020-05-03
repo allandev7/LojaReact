@@ -1,0 +1,78 @@
+.brand{
+    padding-right: 10px;
+    border-right: 1px solid var(--detail-color);
+}
+
+.colapse .nav .txtNav{
+    color: var(--light-color);
+}
+
+span{
+    margin: 3px;
+    color: var(--light-color);
+}
+
+.searchBarContainer{
+    display: none;
+    height: 50px;
+    width: 100%;
+    color: var(--detail-color);
+    background-color: var(--dark-color);
+    border-top: 1px solid var(--detail-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formSearchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.search{
+    width: 100%;
+}
+
+.searchGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.groupSearch{
+    height: 38px;
+    margin: 0;
+}
+
+.searchBarContainer .profileLoja .drop{
+   color: var(--detail-color);
+   padding-right: 10px;
+   text-decoration: none;
+   opacity: 1;
+   transition: 0.3s opacity;
+}
+.searchBarContainer .profileLoja .drop:hover{
+    opacity: 0.8;
+}
+.compras{
+    transition: 0.3s opacity;
+}
+
+.compras:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.profileLoja{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
