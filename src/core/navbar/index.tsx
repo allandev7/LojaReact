@@ -9,27 +9,23 @@ function Header() {
     return (
         <>
             <Navbar bg="dark" variant="dark" expand="lg" className="navbar">
-                <Navbar.Brand className="brand" href="#home">Nome da Loja</Navbar.Brand>
+                <Navbar.Brand className="brand" href="#home">Suzy Moda</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="colapse" id="basic-navbar-nav">
                     <Nav className="mr-auto nav">
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
-                        <Nav.Link className="txtNav" href=""><span>Categoria</span></Nav.Link>
+                        <Nav.Link className="txtNav" href=""><span>Roupas</span></Nav.Link>
+                        <Nav.Link className="txtNav" href=""><span>Maquiagens</span></Nav.Link>
+                        <Nav.Link className="txtNav" href=""><span>Acessórios</span></Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
             <div className="searchBarContainer">
                 <Form className="formSearchBar" inline>
                     <InputGroup>
-                        <FormControl type="text" placeholder="Nome do Produto" className="search" />
-                        <div class="input-group-append">
-                            <span class="input-group-text groupSearch" id="basic-text1">
+                        <FormControl type="text" placeholder="Buscar produto..." className="search" />
+                        <div className="input-group-append">
+                            <span className="input-group-text groupSearch" id="basic-text1">
                                 <FaSearch color='#e33093' size={15} />
                             </span>
                         </div>

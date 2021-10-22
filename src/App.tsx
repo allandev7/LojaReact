@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Routes from './routes';
-import Header from './core/navbar'
-import Footer from './core/footer'
+import Header from './core/navbar/index';
+import Footer from './core/footer/index';
 
 function App() {
   return (

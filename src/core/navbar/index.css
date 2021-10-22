@@ -28,10 +28,10 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 75%;
 }
 .search{
-    width: 100%;
+    width: 91px;
 }
 
 .searchGroup{
@@ -68,7 +68,8 @@ span{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 40%;
 }
 .nav{
     display: flex;

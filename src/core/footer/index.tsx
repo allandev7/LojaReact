@@ -4,7 +4,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer() {
-    const responsive = window.innerWidth <= 900 ? true : false;
     return (
         <>
             <footer className="footer">
